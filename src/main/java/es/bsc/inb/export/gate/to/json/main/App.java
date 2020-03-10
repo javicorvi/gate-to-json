@@ -152,9 +152,7 @@ public class App {
 	    anns.put("SEX", as.get("SEX"));
 	    anns.put("SPECIMEN", as.get("SPECIMEN"));
 	    anns.put("GROUP", as.get("GROUP"));
-	    anns.put("DOSE_DURATION", as.get("DOSE_DURATION"));
-	    anns.put("DOSE_QUANTITY", as.get("DOSE_QUANTITY"));
-	    anns.put("DOSE_FREQUENCY", as.get("DOSE_FREQUENCY"));
+	    anns.put("DOSE", as.get("DOSE"));
 	    anns.put("MANIFESTATION_FINDING", as.get("MANIFESTATION_FINDING"));
 	    anns.put("RISK_LEVEL", as.get("RISK_LEVEL"));
 	    anns.put("NO_TREATMENT_RELATED_TRIGGER", as.get("NO_TREATMENT_RELATED_TRIGGER"));

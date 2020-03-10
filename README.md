@@ -1,4 +1,4 @@
-# gate-to-json
+# ades-export-to-json
 
 This component export the treatment-related findings annotated in XML GATE format to JSON format.
 
@@ -6,13 +6,13 @@ This component export the treatment-related findings annotated in XML GATE forma
 
 This component is only used inside the treatment-related findings pipeline because is tired up to that specific domain.
 
-## For clone this component (CHANGE)
+## Actual Version: 1.0, 2020-03-04
+## [Changelog](https://gitlab.bsc.es/inb/etransafe/ades-export-to-json/blob/master/CHANGELOG) 
+## Docker
 
-	git clone --depth 1 https://github.com/inab/docker-textmining-tools.git gate-to-json
-	cd ades-export-to-json
-	git filter-branch --prune-empty --subdirectory-filter ades-export-to-json HEAD
+javicorvi/ades-export-to-json
 
-## Build and Run the Docker (CHANGE) 
+## Build and Run the Docker
 
 	# To build the docker, just go into the ades-export-to-json folder and execute
 	docker build -t ades-export-to-json .

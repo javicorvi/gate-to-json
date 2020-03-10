@@ -1,0 +1,15 @@
+variables:
+  DOCKER_USER: javicorvi
+  DOCKER_BUILD: $DOCKER_USER/$CI_PROJECT_NAME:$CI_COMMIT_REF_NAME
+stages:
+  - build
+build_docker_image:
+  stage: build
+  only:
+    - tags
+  script:
+    - docker login -u javicorvi -p $DOCKER_PASS
+    - docker build -t $DOCKER_BUILD .
+    - docker push $DOCKER_BUILD
+  tags:
+    - build
